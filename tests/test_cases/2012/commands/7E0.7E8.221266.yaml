@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221266
+test_cases:
+- response: 7E8056212663C62
+  expected_values:
+    NISSAN_VVTO_T: 89.29688
+- response: 7E8056212663C8D
+  expected_values:
+    NISSAN_VVTO_T: 90.30469
+- response: 7E8056212663CB8
+  expected_values:
+    NISSAN_VVTO_T: 91.3125

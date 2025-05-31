@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221186
+test_cases:
+- response: '7E80462118614'
+  expected_values:
+    NISSAN_FLV: 20
+- response: '7E80462118615'
+  expected_values:
+    NISSAN_FLV: 21
+- response: '7E80462118616'
+  expected_values:
+    NISSAN_FLV: 22
+- response: '7E80462118617'
+  expected_values:
+    NISSAN_FLV: 23
+- response: 7E8046211861A
+  expected_values:
+    NISSAN_FLV: 26
