@@ -1,0 +1,20 @@
+command_id: 743.763.220E25|fc=1
+test_cases:
+- expected_values:
+    NISSAN_TP_FR: 0
+  response: '76304620E2500'
+- expected_values:
+    NISSAN_TP_FR: 206.84273
+  response: '76304620E2578'
+- expected_values:
+    NISSAN_TP_FR: 213.73749
+  response: 76304620E257C
+- expected_values:
+    NISSAN_TP_FR: 220.63224
+  response: '76304620E2580'
+- expected_values:
+    NISSAN_TP_FR: 227.527
+  response: '76304620E2584'
+- expected_values:
+    NISSAN_TP_FR: 234.42176
+  response: '76304620E2588'
