@@ -66,6 +66,10 @@ supported_commands_by_ecu:
   - 0147:TP_B
   - 0151:FUEL_TYP
 unsupported_commands_by_ecu:
+  "707":
+  - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
+  "723":
+  - 723.735.220108:NISSAN_RADAR_SPEED
   "743":
   - 743.763.220E01|fc=1:NISSAN_ODO
   - 743.763.220E25|fc=1:NISSAN_TP_FR_V2
