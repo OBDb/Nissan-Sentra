@@ -7,6 +7,9 @@ test_cases:
     NISSAN_TP_FL_V2: 193.05321
   response: '76304620E2670'
 - expected_values:
+    NISSAN_TP_FL_V2: 199.94797
+  response: '76304620E2674'
+- expected_values:
     NISSAN_TP_FL_V2: 206.84273
   response: '76304620E2678'
 - expected_values:
