@@ -1,8 +1,16 @@
 command_id: 743.763.220E27|fc=1
 test_cases:
 - expected_values:
+    NISSAN_TP_RR_V2: 227.527
+  response: |-
+    220E271
+    76304620E2784
+- expected_values:
     NISSAN_TP_RR_V2: 0
   response: '76304620E2700'
+- expected_values:
+    NISSAN_TP_RR_V2: 213.73749
+  response: 76304620E277C
 - expected_values:
     NISSAN_TP_RR_V2: 220.63224
   response: '76304620E2780'

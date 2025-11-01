@@ -67,6 +67,7 @@ supported_commands_by_ecu:
   - 7E0.012F:FLI
   - 7E0.0130:WARM_UPS
   - 7E0.0131:CLR_DIST
+  - 7E0.0142:VPWR
   - 7E0.014D:MIL_TIME
   - 7E0.7E8.22122B:NISSAN_CC_S
   "7E1":
