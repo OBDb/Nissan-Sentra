@@ -48,8 +48,8 @@ supported_commands_by_ecu:
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
   - 7E0.0146:AAT
+  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
   - 7E0.7E8.221186
-  - 7E0.7E8.22122B:NISSAN_CC_S
   - 7E0.7E8.221266
 unsupported_commands_by_ecu:
   "743":
