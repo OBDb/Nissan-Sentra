@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     NI_VSS: 0
   response: '7E80462110200'
+- expected_values:
+    NI_VSS: 20
+  response: 7E8046211020A
+- expected_values:
+    NI_VSS: 50
+  response: '7E80462110219'

@@ -65,6 +65,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.221103|din=C0,dout=81:NI_VPWR
   - 7E0.7E8.221106|din=C0,dout=81:NI_IAT
   - 7E0.7E8.221110|din=C0,dout=81:NI_EVAP_PCT
+  - 7E0.7E8.221111
   - 7E0.7E8.221111|din=C0,dout=81:NI_FUEL_T2
   - 7E0.7E8.221114
   - 7E0.7E8.221114|din=C0,dout=81:NI_FLI
