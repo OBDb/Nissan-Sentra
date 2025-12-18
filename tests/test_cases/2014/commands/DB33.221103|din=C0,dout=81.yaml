@@ -1,5 +1,14 @@
 command_id: DB33.221103|din=C0,dout=81
 test_cases:
 - expected_values:
+    NI_VPWR: 13.04
+  response: 7E804621103A3
+- expected_values:
+    NI_VPWR: 13.12
+  response: 7E804621103A4
+- expected_values:
+    NI_VPWR: 13.2
+  response: 7E804621103A5
+- expected_values:
     NI_VPWR: 14
   response: 7E804621103AF
