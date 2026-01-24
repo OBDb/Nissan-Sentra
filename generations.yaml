@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Sentra"
+
 generations:
   - name: "First Generation (B11)"
     start_year: 1982
