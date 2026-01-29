@@ -19,5 +19,8 @@ test_cases:
     7E8044131001E
     7E8044131001E
 - expected_values:
-    CLR_DIST: 31
-  response: 7E8044131001F
+    CLR_DIST: 990
+  response: 7E804413103DE
+- expected_values:
+    CLR_DIST: 991
+  response: 7E804413103DF
