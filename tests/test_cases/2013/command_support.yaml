@@ -66,6 +66,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.22111A|din=C0,dout=81:NI_O2S12
   - 7E0.7E8.22111F
   - 7E0.7E8.22111F|din=C0,dout=81:NI_EOT
+  - 7E0.7E8.221123
   - 7E0.7E8.221123|din=C0,dout=81:NI_STFT1
   - 7E0.7E8.221125|din=C0,dout=81:NI_LTFT1
   - 7E0.7E8.22112D|din=C0,dout=81:NI_SPARKADV_CORR
@@ -81,6 +82,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.221203|din=C0,dout=81:NI_MIL_DIST
   - 7E0.7E8.221204|din=C0,dout=81:NI_MAFVB1
   - 7E0.7E8.221208|din=C0,dout=81:NI_MAFVB1
+  - 7E0.7E8.221209
   - 7E0.7E8.221209|din=C0,dout=81:NI_MAF
   - 7E0.7E8.22120D|din=C0,dout=81:NI_APP1_V
   - 7E0.7E8.22120E|din=C0,dout=81:NI_APP2_V
