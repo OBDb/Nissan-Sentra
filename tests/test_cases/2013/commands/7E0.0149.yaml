@@ -4,29 +4,20 @@ test_cases:
     APP_D: 0
   response: '7E803414900'
 - expected_values:
-    APP_D: 5.09804
-  response: 7E80341490D
+    APP_D: 0
+  response: |-
+    7E803414900
+    7E803414900
 - expected_values:
-    APP_D: 5.88235
-  response: 7E80341490F
+    APP_D: 4.31373
+  response: |-
+    7E80341490B
+    7E80341490B
 - expected_values:
-    APP_D: 7.05882
-  response: '7E803414912'
+    APP_D: 13.33333
+  response: |-
+    7E803414922
+    7E803414922
 - expected_values:
-    APP_D: 10.58824
-  response: 7E80341491B
-- expected_values:
-    APP_D: 11.76471
-  response: 7E80341491E
-- expected_values:
-    APP_D: 12.15686
-  response: 7E80341491F
-- expected_values:
-    APP_D: 12.94118
-  response: '7E803414921'
-- expected_values:
-    APP_D: 13.72549
-  response: '7E803414923'
-- expected_values:
-    APP_D: 14.5098
-  response: '7E803414925'
+    APP_D: 20.39216
+  response: '7E803414934'
