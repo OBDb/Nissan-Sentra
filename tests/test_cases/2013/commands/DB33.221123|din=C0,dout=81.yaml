@@ -18,3 +18,14 @@ test_cases:
 - expected_values:
     NI_STFT1: -21.875
   response: '7E80462112364'
+- expected_values:
+    NI_STFT1: -21.875
+  response: |-
+    7E80462112364
+    7E80462112364
+- expected_values:
+    NI_STFT1: -21.09375
+  response: '7E80462112365'
+- expected_values:
+    NI_STFT1: -17.96875
+  response: '7E80462112369'
