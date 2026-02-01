@@ -9,10 +9,21 @@ test_cases:
     7E803414A00
     7E803414A00
 - expected_values:
+    APP_E: 0
+  response: |-
+    7E803414A00
+    7E803414A00
+    7E803414A00
+- expected_values:
     APP_E: 10.58824
   response: |-
     7E803414A1B
     7E803414A1B
+- expected_values:
+    APP_E: 13.33333
+  response: |-
+    7E803414A22
+    7E803414A22
 - expected_values:
     APP_E: 21.96078
   response: 7E803414A38
