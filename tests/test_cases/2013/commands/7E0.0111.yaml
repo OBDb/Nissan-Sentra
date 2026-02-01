@@ -9,10 +9,10 @@ test_cases:
     7E803411105
     7E803411105
 - expected_values:
-    TP: 4.31373
+    TP: 4.70588
   response: |-
-    7E80341110B
-    7E80341110B
+    7E80341110C
+    7E90341110C
 - expected_values:
-    TP: 26.66667
-  response: '7E803411144'
+    TP: 29.80392
+  response: 7E80341114C
