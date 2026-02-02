@@ -30,5 +30,5 @@ test_cases:
     7E803410D22
     7E803410D22
 - expected_values:
-    VSS: 74
-  response: 7E803410D4A
+    VSS: 76
+  response: 7E803410D4C
