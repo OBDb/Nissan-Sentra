@@ -25,5 +25,5 @@ test_cases:
     7E803414A22
     7E803414A22
 - expected_values:
-    APP_E: 21.96078
-  response: 7E803414A38
+    APP_E: 26.66667
+  response: 7E803414A44
