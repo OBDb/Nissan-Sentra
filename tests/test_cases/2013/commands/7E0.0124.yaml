@@ -19,6 +19,12 @@ test_cases:
     7E80641247BF545CB
     7E80641247BF545CB
 - expected_values:
+    LAMBDA11_VOLT: 0.98541
+    O2S11_VOLT: 2.20998
+  response: |-
+    7E80641247E2246C1
+    7E80641247E2246C1
+- expected_values:
     LAMBDA11_VOLT: 0.99808
     O2S11_VOLT: 2.25
   response: |-
