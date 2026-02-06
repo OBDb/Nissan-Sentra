@@ -37,5 +37,5 @@ test_cases:
     7E804410C2260
     7E904410C203A
 - expected_values:
-    RPM: 2475
-  response: 7E804410C26AC
+    RPM: 2562.5
+  response: 7E804410C280A
