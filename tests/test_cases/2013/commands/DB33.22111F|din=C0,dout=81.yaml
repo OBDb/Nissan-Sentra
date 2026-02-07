@@ -9,26 +9,21 @@ test_cases:
     7E80462111F6A
     7E80462111F6A
 - expected_values:
-    NI_EOT: 63
-  response: |-
-    7E80462111F71
-    7E80462111F71
-- expected_values:
     NI_EOT: 67
   response: |-
     7E80462111F75
     7E80462111F75
     7E80462111F75
 - expected_values:
-    NI_EOT: 81
+    NI_EOT: 92
   response: |-
-    7E80462111F83
-    7E80462111F83
+    7E80462111F8E
+    7E80462111F8E
 - expected_values:
-    NI_EOT: 89
+    NI_EOT: 94
   response: |-
-    7E80462111F8B
-    7E80462111F8B
+    7E80462111F90
+    7E80462111F90
 - expected_values:
     NI_EOT: 95
   response: 7E80462111F91
