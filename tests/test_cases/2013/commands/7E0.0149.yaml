@@ -15,21 +15,16 @@ test_cases:
     7E803414900
     7E803414900
 - expected_values:
-    APP_D: 4.31373
-  response: |-
-    7E80341490B
-    7E80341490B
-- expected_values:
-    APP_D: 13.33333
-  response: |-
-    7E803414922
-    7E803414922
-- expected_values:
     APP_D: 14.90196
   response: |-
     7E803414926
     7E803414926
     7E803414926
+- expected_values:
+    APP_D: 23.92157
+  response: |-
+    7E80341493D
+    7E80341493D
 - expected_values:
     APP_D: 33.33333
   response: '7E803414955'
