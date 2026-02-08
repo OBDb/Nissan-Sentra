@@ -4,10 +4,10 @@ test_cases:
     NI_EOT: 32
   response: 7E80462111F52
 - expected_values:
-    NI_EOT: 56
+    NI_EOT: 54
   response: |-
-    7E80462111F6A
-    7E80462111F6A
+    7E80462111F68
+    7E80462111F68
 - expected_values:
     NI_EOT: 67
   response: |-
