@@ -25,5 +25,10 @@ test_cases:
     7E80462111F90
     7E80462111F90
 - expected_values:
-    NI_EOT: 95
-  response: 7E80462111F91
+    NI_EOT: 96
+  response: |-
+    7E80462111F92
+    7E80462111F92
+- expected_values:
+    NI_EOT: 97
+  response: 7E80462111F93
