@@ -27,16 +27,16 @@ test_cases:
     7E803414A0F
     7E803414A0F
 - expected_values:
-    APP_E: 9.01961
+    APP_E: 23.13725
   response: |-
-    7E803414A17
-    7E803414A17
-    7E803414A17
+    7E803414A3B
+    7E803414A3B
+    7E803414A3B
 - expected_values:
-    APP_E: 13.33333
+    APP_E: 41.96078
+  response: 7E803414A6B
+- expected_values:
+    APP_E: 49.80392
   response: |-
-    7E803414A22
-    7E803414A22
-- expected_values:
-    APP_E: 26.66667
-  response: 7E803414A44
+    7E803414A7F
+    7E803414A7F
