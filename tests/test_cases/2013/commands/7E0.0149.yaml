@@ -21,6 +21,11 @@ test_cases:
     7E803414926
     7E803414926
 - expected_values:
+    APP_D: 17.64706
+  response: |-
+    7E80341492D
+    7E80341492D
+- expected_values:
     APP_D: 21.56863
   response: |-
     7E803414937
