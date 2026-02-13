@@ -39,6 +39,12 @@ test_cases:
     7E804410C10FE
     7E804410C10FE
 - expected_values:
+    RPM: 1300
+  response: |-
+    7E804410C1450
+    7E804410C1450
+    7E804410C1450
+- expected_values:
     RPM: 1537.5
   response: |-
     7E804410C1806
