@@ -18,11 +18,6 @@ test_cases:
   response: |-
     7E804410C0DAC
     7E804410C0DAC
-- expected_values:
-    RPM: 875
-  response: |-
-    7E804410C0DAC
-    7E804410C0DAC
     7E804410C0DAC
 - expected_values:
     RPM: 1075
@@ -49,6 +44,11 @@ test_cases:
   response: |-
     7E804410C1806
     7E804410C1806
+- expected_values:
+    RPM: 1900
+  response: |-
+    7E804410C1DB0
+    7E804410C1DB0
 - expected_values:
     RPM: 2125
   response: |-
