@@ -53,7 +53,7 @@ test_cases:
     7E804413105B0
     7E804413105B0
 - expected_values:
-    CLR_DIST: 1504
+    CLR_DIST: 1522
   response: |-
-    7E804413105E0
-    7E804413105E0
+    7E804413105F2
+    7E804413105F2
