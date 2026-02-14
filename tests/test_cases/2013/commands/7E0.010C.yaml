@@ -14,10 +14,10 @@ test_cases:
     7E804410C0AF0
     7E804410C0AF0
 - expected_values:
-    RPM: 850
+    RPM: 875
   response: |-
-    7E804410C0D16
-    7E904410C0D48
+    7E804410C0DAC
+    7E804410C0DAC
 - expected_values:
     RPM: 875
   response: |-
