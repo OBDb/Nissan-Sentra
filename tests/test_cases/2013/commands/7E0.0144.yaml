@@ -9,32 +9,17 @@ test_cases:
     7E80441440000
     7E80441440000
 - expected_values:
-    EQ_RAT: 0.99117
+    EQ_RAT: 0
   response: |-
-    7E80441447EDE
-    7E80441447EDE
+    7E80441440000
+    7E80441440000
+    7E80441440000
 - expected_values:
     EQ_RAT: 0.99184
   response: |-
     7E80441447EF4
     7E80441447EF4
-- expected_values:
-    EQ_RAT: 0.99471
-  response: |-
-    7E80441447F52
-    7E80441447F52
-    7E80441447F52
-- expected_values:
-    EQ_RAT: 0.99593
-  response: |-
-    7E80441447F7A
-    7E80441447F7A
-- expected_values:
-    EQ_RAT: 0.99593
-  response: |-
-    7E80441447F7A
-    7E80441447F7A
-    7E80441447F7A
+    7E80441447EF4
 - expected_values:
     EQ_RAT: 0.99593
   response: |-
@@ -42,6 +27,22 @@ test_cases:
     7E80441447F7A
     7E80441447F7A
     7E80441447F7A
+- expected_values:
+    EQ_RAT: 0.99648
+  response: |-
+    7E80441447F8C
+    7E80441447F8C
+    7E80441447F8C
+- expected_values:
+    EQ_RAT: 0.99754
+  response: |-
+    7E80441447FAF
+    7E80441447FAF
+- expected_values:
+    EQ_RAT: 0.99986
+  response: |-
+    7E80441447FFB
+    7E80441447FFB
 - expected_values:
     EQ_RAT: 1.006
   response: |-
@@ -65,3 +66,8 @@ test_cases:
 - expected_values:
     EQ_RAT: 1.23
   response: 7E80441449D70
+- expected_values:
+    EQ_RAT: 1.23
+  response: |-
+    7E80441449D70
+    7E80441449D70
