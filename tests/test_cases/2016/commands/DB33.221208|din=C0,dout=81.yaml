@@ -1,0 +1,11 @@
+command_id: DB33.221208|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_MAFVB1: 2.51758
+  response: '7E8056212081424'
+- expected_values:
+    NI_MAFVB1: 4.44336
+  response: 7E805621208238C
+- expected_values:
+    NI_MAFVB1: 8.5498
+  response: '7E8056212084466'
