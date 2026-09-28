@@ -4,6 +4,16 @@ test_cases:
     RPM: 0
   response: 7E804410C0000
 - expected_values:
+    RPM: 0
+  response: |-
+    7E804410C0000
+    7E804410C0000
+- expected_values:
+    RPM: 587.5
+  response: |-
+    7E804410C092E
+    7E804410C092E
+- expected_values:
     RPM: 687.5
   response: |-
     7E804410C0ABE
@@ -13,6 +23,19 @@ test_cases:
   response: |-
     7E804410C0AF0
     7E804410C0AF0
+    7E804410C0AF0
+- expected_values:
+    RPM: 787.5
+  response: |-
+    7E804410C0C4E
+    7E804410C0C4E
+    7E804410C0C4E
+- expected_values:
+    RPM: 837.5
+  response: |-
+    7E804410C0D16
+    7E804410C0D16
+    7E804410C0D16
 - expected_values:
     RPM: 875
   response: |-
@@ -20,11 +43,11 @@ test_cases:
     7E804410C0DAC
     7E804410C0DAC
 - expected_values:
-    RPM: 1075
+    RPM: 1037.5
   response: |-
-    7E804410C10CC
-    7E804410C10CC
-    7E804410C10CC
+    7E804410C1036
+    7E804410C1036
+    7E804410C1036
 - expected_values:
     RPM: 1087.5
   response: 7E804410C10FE
@@ -34,36 +57,32 @@ test_cases:
     7E804410C10FE
     7E804410C10FE
 - expected_values:
-    RPM: 1300
+    RPM: 2037.5
   response: |-
-    7E804410C1450
-    7E804410C1450
-    7E804410C1450
+    7E804410C1FD6
+    7E804410C1FD6
 - expected_values:
-    RPM: 1537.5
+    RPM: 2075
   response: |-
-    7E804410C1806
-    7E804410C1806
+    7E804410C206C
+    7E804410C206C
 - expected_values:
-    RPM: 1900
+    RPM: 2225
   response: |-
-    7E804410C1DB0
-    7E804410C1DB0
+    7E804410C22C4
+    7E804410C22C4
+    7E804410C22C4
 - expected_values:
-    RPM: 2125
+    RPM: 2837.5
   response: |-
-    7E804410C2166
-    7E904410C2134
+    7E804410C2C56
+    7E804410C2C56
+    7E804410C2C56
 - expected_values:
-    RPM: 2062.5
+    RPM: 3037.5
   response: |-
-    7E804410C2260
-    7E904410C203A
+    7E804410C2F76
+    7E804410C2F76
 - expected_values:
-    RPM: 2737.5
-  response: |-
-    7E804410C2AC6
-    7E804410C2AC6
-- expected_values:
-    RPM: 4100
-  response: 7E804410C4010
+    RPM: 4862.5
+  response: 7E804410C4BFA
