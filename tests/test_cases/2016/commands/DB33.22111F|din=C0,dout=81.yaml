@@ -1,0 +1,11 @@
+command_id: DB33.22111F|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_EOT: 9
+  response: 7E80462111F3B
+- expected_values:
+    NI_EOT: 92
+  response: 7E80462111F8E
+- expected_values:
+    NI_EOT: 99
+  response: 7E80462111F95
