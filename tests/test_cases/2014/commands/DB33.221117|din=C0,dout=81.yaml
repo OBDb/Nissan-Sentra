@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NI_LOAD: 19.21569
   response: '7E80462111731'
+- expected_values:
+    NI_LOAD: 21.56863
+  response: '7E80462111737'

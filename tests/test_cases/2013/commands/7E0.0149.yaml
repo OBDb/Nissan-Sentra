@@ -15,26 +15,34 @@ test_cases:
     7E803414900
     7E803414900
 - expected_values:
-    APP_D: 14.90196
+    APP_D: 0
   response: |-
-    7E803414926
-    7E803414926
-    7E803414926
+    7E803414900
+    7E803414900
+    7E803414900
+    7E803414900
 - expected_values:
-    APP_D: 17.64706
+    APP_D: 5.4902
   response: |-
-    7E80341492D
-    7E80341492D
+    7E80341490E
+    7E80341490E
+    7E80341490E
 - expected_values:
-    APP_D: 21.56863
+    APP_D: 5.88235
   response: |-
-    7E803414937
-    7E803414937
+    7E80341490F
+    7E80341490F
 - expected_values:
-    APP_D: 23.92157
+    APP_D: 40.39216
   response: |-
-    7E80341493D
-    7E80341493D
+    7E803414967
+    7E803414967
 - expected_values:
-    APP_D: 53.33333
-  response: '7E803414988'
+    APP_D: 45.88235
+  response: |-
+    7E803414975
+    7E803414975
+    7E803414975
+- expected_values:
+    APP_D: 96.47059
+  response: 7E8034149F6

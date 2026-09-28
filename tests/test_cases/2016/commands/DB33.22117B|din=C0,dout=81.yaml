@@ -1,0 +1,5 @@
+command_id: DB33.22117B|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_ALT_DUTY: 42
+  response: 7E80462117B54
