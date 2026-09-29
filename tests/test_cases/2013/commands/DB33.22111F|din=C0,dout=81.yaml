@@ -4,42 +4,75 @@ test_cases:
     NI_EOT: 19
   response: 7E80462111F45
 - expected_values:
-    NI_EOT: 54
+    NI_EOT: 33
   response: |-
-    7E80462111F68
-    7E80462111F68
+    7E80462111F53
+    7E80462111F53
 - expected_values:
-    NI_EOT: 67
+    NI_EOT: 47
   response: |-
-    7E80462111F75
-    7E80462111F75
-    7E80462111F75
+    7E80462111F61
+    7E80462111F61
+    7E80462111F61
+    7E80462111F61
+- expected_values:
+    NI_EOT: 55
+  response: |-
+    7E80462111F69
+    7E80462111F69
+    7E80462111F69
+- expected_values:
+    NI_EOT: 61
+  response: |-
+    7E80462111F6F
+    7E80462111F6F
+- expected_values:
+    NI_EOT: 76
+  response: |-
+    7E80462111F7E
+    7E80462111F7E
+    7E80462111F7E
+- expected_values:
+    NI_EOT: 76
+  response: |-
+    7E80462111F7E
+    7E80462111F7E
+    7E80462111F7E
+    7E80462111F7E
 - expected_values:
     NI_EOT: 78
   response: |-
     7E80462111F80
     7E80462111F80
 - expected_values:
-    NI_EOT: 82
+    NI_EOT: 78
   response: |-
-    7E80462111F84
-    7E80462111F84
-    7E80462111F84
-- expected_values:
-    NI_EOT: 93
-  response: |-
-    7E80462111F8F
-    7E80462111F8F
+    7E80462111F80
+    7E80462111F80
+    7E80462111F80
 - expected_values:
     NI_EOT: 94
   response: |-
     7E80462111F90
     7E80462111F90
 - expected_values:
-    NI_EOT: 99
-  response: 7E80462111F95
+    NI_EOT: 98
+  response: |-
+    7E80462111F94
+    7E80462111F94
+    7E80462111F94
 - expected_values:
     NI_EOT: 99
   response: |-
     7E80462111F95
     7E80462111F95
+    7E80462111F95
+    7E80462111F95
+- expected_values:
+    NI_EOT: 101
+  response: |-
+    7E80462111F97
+    7E80462111F97
+- expected_values:
+    NI_EOT: 106
+  response: 7E80462111F9C
