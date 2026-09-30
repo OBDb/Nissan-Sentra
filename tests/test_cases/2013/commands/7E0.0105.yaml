@@ -4,6 +4,16 @@ test_cases:
     ECT: 12
   response: '7E803410534'
 - expected_values:
+    ECT: 25
+  response: |-
+    7E803410541
+    7E803410541
+- expected_values:
+    ECT: 39
+  response: |-
+    7E80341054F
+    7E80341054F
+- expected_values:
     ECT: 40
   response: |-
     7E803410550
@@ -14,13 +24,16 @@ test_cases:
     7E80341055A
     7E90341055A
 - expected_values:
-    ECT: 54
+    ECT: 55
   response: |-
-    7E80341055E
-    7E90341055E
+    7E80341055F
+    7E80341055F
+    7E80341055F
 - expected_values:
     ECT: 84
   response: |-
+    7E80341057C
+    7E80341057C
     7E80341057C
     7E80341057C
     7E80341057C
@@ -29,14 +42,28 @@ test_cases:
   response: |-
     7E803410580
     7E803410580
+    7E803410580
 - expected_values:
-    ECT: 95
+    ECT: 89
   response: |-
-    7E803410587
-    7E803410587
+    7E803410581
+    7E803410581
+    7E803410581
 - expected_values:
-    ECT: 98
-  response: 7E80341058A
+    ECT: 97
+  response: |-
+    7E803410589
+    7E803410589
+    7E803410589
+    7E803410589
+- expected_values:
+    ECT: 119
+  response: |-
+    7E80341059F
+    7E80341059F
+- expected_values:
+    ECT: 131
+  response: 7E8034105AB
 - expected_values:
     ECT: 67
   response: |-
