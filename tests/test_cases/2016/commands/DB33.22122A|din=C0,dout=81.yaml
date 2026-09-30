@@ -1,0 +1,20 @@
+command_id: DB33.22122A|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_CRUISE_VSS: 61.14375
+  response: 7E80562122A043F
+- expected_values:
+    NI_CRUISE_VSS: 86.9625
+  response: 7E80562122A060A
+- expected_values:
+    NI_CRUISE_VSS: 98.55
+  response: 7E80562122A06D8
+- expected_values:
+    NI_CRUISE_VSS: 98.60625
+  response: 7E80562122A06D9
+- expected_values:
+    NI_CRUISE_VSS: 105.6375
+  response: 7E80562122A0756
+- expected_values:
+    NI_CRUISE_VSS: 105.91875
+  response: 7E80562122A075B
