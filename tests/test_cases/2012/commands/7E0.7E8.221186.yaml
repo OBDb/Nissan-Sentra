@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221186
+test_cases:
+- expected_values:
+    SENTRA_FUEL_REMAINING: 20
+  response: '7E80462118614'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 21
+  response: '7E80462118615'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 22
+  response: '7E80462118616'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 23
+  response: '7E80462118617'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 26
+  response: 7E8046211861A
+- expected_values:
+    SENTRA_FUEL_REMAINING: 37
+  response: '7E80462118625'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 38
+  response: '7E80462118626'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 39
+  response: '7E80462118627'
+- expected_values:
+    SENTRA_FUEL_REMAINING: 42
+  response: 7E8046211862A
+- expected_values:
+    SENTRA_FUEL_REMAINING: 43
+  response: 7E8046211862B
