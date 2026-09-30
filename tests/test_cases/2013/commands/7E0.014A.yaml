@@ -22,6 +22,22 @@ test_cases:
     7E803414A00
     7E803414A00
 - expected_values:
+    APP_E: 0
+  response: |-
+    7E803414A00
+    7E803414A00
+    7E803414A00
+    7E803414A00
+    7E803414A00
+    7E803414A00
+    7E803414A00
+- expected_values:
+    APP_E: 4.31373
+  response: |-
+    7E803414A0B
+    7E803414A0B
+    7E803414A0B
+- expected_values:
     APP_E: 5.88235
   response: |-
     7E803414A0F
@@ -33,10 +49,10 @@ test_cases:
     7E803414A3B
     7E803414A3B
 - expected_values:
-    APP_E: 41.96078
-  response: 7E803414A6B
-- expected_values:
     APP_E: 49.80392
   response: |-
     7E803414A7F
     7E803414A7F
+- expected_values:
+    APP_E: 96.47059
+  response: 7E803414AF6

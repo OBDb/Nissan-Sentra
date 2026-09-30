@@ -1,0 +1,17 @@
+command_id: DB33.221115|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_EVAP_P: 2.68
+  response: '7E80462111586'
+- expected_values:
+    NI_EVAP_P: 2.7
+  response: '7E80462111587'
+- expected_values:
+    NI_EVAP_P: 2.72
+  response: '7E80462111588'
+- expected_values:
+    NI_EVAP_P: 2.74
+  response: '7E80462111589'
+- expected_values:
+    NI_EVAP_P: 2.8
+  response: 7E8046211158C
