@@ -1,0 +1,23 @@
+command_id: DB33.221201|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_RPM: 1062.5
+  response: '7E8056212010055'
+- expected_values:
+    NI_RPM: 1150
+  response: 7E805621201005C
+- expected_values:
+    NI_RPM: 1200
+  response: '7E8056212010060'
+- expected_values:
+    NI_RPM: 1312.5
+  response: '7E8056212010069'
+- expected_values:
+    NI_RPM: 1325
+  response: 7E805621201006A
+- expected_values:
+    NI_RPM: 1425
+  response: '7E8056212010072'
+- expected_values:
+    NI_RPM: 1562.5
+  response: 7E805621201007D
