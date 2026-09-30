@@ -1,0 +1,6 @@
+command_id: DB33.22130E|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_CC_LAMP: 0
+    NI_CC_SET_LAMP: 0
+  response: 7E80562130E087F
