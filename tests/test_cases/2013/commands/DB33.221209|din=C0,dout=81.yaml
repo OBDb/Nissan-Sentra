@@ -7,18 +7,45 @@ test_cases:
     NI_MAF: 2.56
   response: '7E8056212090100'
 - expected_values:
+    NI_MAF: 3.56
+  response: |-
+    7E8056212090164
+    7E8056212090164
+- expected_values:
+    NI_MAF: 4.15
+  response: |-
+    7E805621209019F
+    7E805621209019F
+- expected_values:
     NI_MAF: 5.11
   response: 7E80562120901FF
 - expected_values:
-    NI_MAF: 7.03
+    NI_MAF: 9.19
   response: |-
-    7E80562120902BF
-    7E80562120902BF
+    7E8056212090397
+    7E8056212090397
+    7E8056212090397
+- expected_values:
+    NI_MAF: 11.08
+  response: |-
+    7E8056212090454
+    7E8056212090454
+    7E8056212090454
 - expected_values:
     NI_MAF: 22.81
   response: |-
     7E80562120908E9
     7E80562120908E9
 - expected_values:
-    NI_MAF: 28.72
-  response: 7E8056212090B38
+    NI_MAF: 30.08
+  response: |-
+    7E8056212090BC0
+    7E8056212090BC0
+- expected_values:
+    NI_MAF: 38.67
+  response: |-
+    7E8056212090F1B
+    7E8056212090F1B
+- expected_values:
+    NI_MAF: 45.45
+  response: 7E80562120911C1
