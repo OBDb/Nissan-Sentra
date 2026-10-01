@@ -1,0 +1,11 @@
+command_id: 740.760.221209
+test_cases:
+- expected_values:
+    SENTRA_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    SENTRA_BRAKE_MC_P: -3
+  response: 76005621209FFFD
+- expected_values:
+    SENTRA_BRAKE_MC_P: -2
+  response: 76005621209FFFE

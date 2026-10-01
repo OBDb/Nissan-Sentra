@@ -1,31 +1,28 @@
 command_id: 743.763.220E25|fc=1
 test_cases:
 - expected_values:
-    NISSAN_TP_FR_V2: 220.63224
+    SENTRA_TP_FR: 220.63224
   response: |-
     220E251
     76304620E2580
 - expected_values:
-    NISSAN_TP_FR_V2: 0
-  response: '76304620E2500'
-- expected_values:
-    NISSAN_TP_FR_V2: 206.84273
+    SENTRA_TP_FR: 206.84273
   response: '76304620E2578'
 - expected_values:
-    NISSAN_TP_FR_V2: 213.73749
+    SENTRA_TP_FR: 213.73749
   response: 76304620E257C
 - expected_values:
-    NISSAN_TP_FR_V2: 220.63224
+    SENTRA_TP_FR: 220.63224
   response: '76304620E2580'
 - expected_values:
-    NISSAN_TP_FR_V2: 227.527
+    SENTRA_TP_FR: 227.527
   response: '76304620E2584'
 - expected_values:
-    NISSAN_TP_FR_V2: 234.42176
+    SENTRA_TP_FR: 234.42176
   response: '76304620E2588'
 - expected_values:
-    NISSAN_TP_FR_V2: 241.31652
+    SENTRA_TP_FR: 241.31652
   response: 76304620E258C
 - expected_values:
-    NISSAN_TP_FR_V2: 248.21127
+    SENTRA_TP_FR: 248.21127
   response: '76304620E2590'
