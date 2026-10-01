@@ -6,6 +6,9 @@ test_cases:
     220E261
     76304620E2684
 - expected_values:
+    SENTRA_TP_FL: null
+  response: '76304620E2600'
+- expected_values:
     SENTRA_TP_FL: 213.73749
   response: 76304620E267C
 - expected_values:
