@@ -4,5 +4,5 @@ test_cases:
     SENTRA_ECT: 53
   response: 7640462F4675D
 - expected_values:
-    SENTRA_ECT: 90
-  response: 7640462F46782
+    SENTRA_ECT: null
+  response: 7640462F467FF
