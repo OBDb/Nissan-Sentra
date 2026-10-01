@@ -1,17 +1,17 @@
 command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
-    NISSAN_ODO: 94968
+    SENTRA_ODO: 94968
   response: 76306620E010172F8
 - expected_values:
-    NISSAN_ODO: 125693
+    SENTRA_ODO: 125693
   response: 76306620E0101EAFD
 - expected_values:
-    NISSAN_ODO: 125704
+    SENTRA_ODO: 125704
   response: 76306620E0101EB08
 - expected_values:
-    NISSAN_ODO: 126251
+    SENTRA_ODO: 126251
   response: 76306620E0101ED2B
 - expected_values:
-    NISSAN_ODO: 132738
+    SENTRA_ODO: 132738
   response: '76306620E01020682'
