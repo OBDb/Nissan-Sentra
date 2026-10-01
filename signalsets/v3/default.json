@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015], "from": 2017 },
   "signals": [
     {"id": "SENTRA_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
