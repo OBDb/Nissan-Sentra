@@ -1,6 +1,9 @@
 command_id: 743.763.220E26|fc=1
 test_cases:
 - expected_values:
+    SENTRA_TP_FL: null
+  response: '76304620E2600'
+- expected_values:
     SENTRA_TP_FL: 193.05321
   response: '76304620E2670'
 - expected_values:
