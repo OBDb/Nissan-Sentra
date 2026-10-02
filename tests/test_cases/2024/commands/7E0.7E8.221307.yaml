@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.221307
+test_cases:
+- expected_values:
+    SENTRA_AC_COMP: 0
+    SENTRA_IDLE_CTRL_MODE: 0
+  response: '7E8056213070442'
