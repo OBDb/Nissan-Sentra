@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     SENTRA_ECT: 81
   response: 7640462F46779
+- expected_values:
+    SENTRA_ECT: 84
+  response: 7640462F4677C
+- expected_values:
+    SENTRA_ECT: 85
+  response: 7640462F4677D
+- expected_values:
+    SENTRA_ECT: 86
+  response: 7640462F4677E
+- expected_values:
+    SENTRA_ECT: null
+  response: 7640462F467FF
