@@ -33,8 +33,8 @@ supported_commands_by_ecu:
   - 0145:TP_R
 unsupported_commands_by_ecu:
   "743":
-  - 743.763.220E25|fc=1:SENTRA_TP_FR
-  - 743.763.220E28|fc=1:SENTRA_TP_RL
+  - 743.763.220E25
+  - 743.763.220E28
   "758":
   - 758.778.220201
   - 758.778.220202

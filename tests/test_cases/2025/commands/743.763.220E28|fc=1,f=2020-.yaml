@@ -1,11 +1,13 @@
-command_id: 743.763.220E28|fc=1
+command_id: 743.763.220E28|fc=1,f=2020-
 test_cases:
+- expected_values:
+    SENTRA_TP_RL: 220.63224
+  response: |-
+    220E281
+    76304620E2880
 - expected_values:
     SENTRA_TP_RL: null
   response: '76304620E2800'
-- expected_values:
-    SENTRA_TP_RL: 199.94797
-  response: '76304620E2874'
 - expected_values:
     SENTRA_TP_RL: 206.84273
   response: '76304620E2878'
@@ -21,3 +23,9 @@ test_cases:
 - expected_values:
     SENTRA_TP_RL: 234.42176
   response: '76304620E2888'
+- expected_values:
+    SENTRA_TP_RL: 241.31652
+  response: 76304620E288C
+- expected_values:
+    SENTRA_TP_RL: 248.21127
+  response: '76304620E2890'

@@ -14,23 +14,23 @@
   "signals": [
     {"id": "SENTRA_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 30, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 439.5, "mul": 1.7236894, "nullmin": 0, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
