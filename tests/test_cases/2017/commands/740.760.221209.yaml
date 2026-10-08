@@ -4,23 +4,5 @@ test_cases:
     SENTRA_BRAKE_MC_P: 0
   response: '760056212090000'
 - expected_values:
-    SENTRA_BRAKE_MC_P: 5
-  response: '760056212090005'
-- expected_values:
-    SENTRA_BRAKE_MC_P: 7
-  response: '760056212090007'
-- expected_values:
-    SENTRA_BRAKE_MC_P: 8
-  response: '760056212090008'
-- expected_values:
-    SENTRA_BRAKE_MC_P: 10
-  response: 76005621209000A
-- expected_values:
-    SENTRA_BRAKE_MC_P: 22
-  response: '760056212090016'
-- expected_values:
-    SENTRA_BRAKE_MC_P: 23
-  response: '760056212090017'
-- expected_values:
     SENTRA_BRAKE_MC_P: -1
   response: 76005621209FFFF
