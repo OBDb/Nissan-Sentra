@@ -1,0 +1,11 @@
+command_id: 744.764.224007
+test_cases:
+- expected_values:
+    SENTRA_AC_STATUS: 128
+  response: '764 07 62 40 07 80 40 00 00 '
+- expected_values:
+    SENTRA_AC_STATUS: 0
+  response: '7640762400700400000'
+- expected_values:
+    SENTRA_AC_STATUS: 128
+  response: '7640762400780400000'
