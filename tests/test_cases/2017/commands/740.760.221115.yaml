@@ -13,8 +13,20 @@ test_cases:
     SENTRA_APP: 6.5
   response: 760046211150D
 - expected_values:
+    SENTRA_APP: 7
+  response: 760046211150E
+- expected_values:
+    SENTRA_APP: 11.5
+  response: '7600462111517'
+- expected_values:
+    SENTRA_APP: 15
+  response: 760046211151E
+- expected_values:
     SENTRA_APP: 17
   response: '7600462111522'
+- expected_values:
+    SENTRA_APP: 29
+  response: 760046211153A
 - expected_values:
     SENTRA_APP: 36.5
   response: '7600462111549'
