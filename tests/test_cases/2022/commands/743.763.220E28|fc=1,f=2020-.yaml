@@ -1,0 +1,14 @@
+command_id: 743.763.220E28|fc=1,f=2020-
+test_cases:
+- expected_values:
+    SENTRA_TP_RL: null
+  response: '763 04 62 0E 28 00 '
+- expected_values:
+    SENTRA_TP_RL: 220.63224
+  response: '763 04 62 0E 28 80 '
+- expected_values:
+    SENTRA_TP_RL: null
+  response: '76304620E2800'
+- expected_values:
+    SENTRA_TP_RL: 220.63224
+  response: '76304620E2880'
