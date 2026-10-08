@@ -1,0 +1,14 @@
+command_id: 744.764.224008
+test_cases:
+- expected_values:
+    SENTRA_AAT: 41
+  response: '764 04 62 40 08 51 '
+- expected_values:
+    SENTRA_AAT: 51
+  response: '764 04 62 40 08 5B '
+- expected_values:
+    SENTRA_AAT: 40
+  response: '7640462400850'
+- expected_values:
+    SENTRA_AAT: 50
+  response: 764046240085A
