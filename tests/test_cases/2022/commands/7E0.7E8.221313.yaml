@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221313
+test_cases:
+- expected_values:
+    SENTRA_COOLING_FAN_HIGH: 0
+    SENTRA_COOLING_FAN_LOW: 0
+  response: '7E8 05 62 13 13 08 00 '
+- expected_values:
+    SENTRA_COOLING_FAN_HIGH: 0
+    SENTRA_COOLING_FAN_LOW: 0
+  response: '7E8056213130800'
