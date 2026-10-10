@@ -1,0 +1,11 @@
+command_id: 743.763.220E01|fc=1,f=2020-
+test_cases:
+- expected_values:
+    SENTRA_ODO: 130312
+  response: '763 06 62 0E 01 01 FD 08 '
+- expected_values:
+    SENTRA_ODO: 130312
+  response: 76306620E0101FD08
+- expected_values:
+    SENTRA_ODO: 130313
+  response: 76306620E0101FD09
