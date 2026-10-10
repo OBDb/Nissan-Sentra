@@ -1,0 +1,11 @@
+command_id: 740.760.221115
+test_cases:
+- expected_values:
+    SENTRA_APP: 0
+  response: '760 04 62 11 15 00 '
+- expected_values:
+    SENTRA_APP: 0.5
+  response: '760 04 62 11 15 01 '
+- expected_values:
+    SENTRA_APP: 0
+  response: '7600462111500'
