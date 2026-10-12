@@ -57,6 +57,10 @@
   "signals": [
     {"id": "SENTRA_ECT", "path": "Climate", "fmt": { "len": 8, "max": 214, "min": -40, "add": -40, "nullmax": 214, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 30,
+  "signals": [
+    {"id": "SENTRA_RANGE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range shown on the display", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1186"}, "freq": 30, "filter": { "to": 2012 }, "dbgfilter": { "to": 2011 },
   "signals": [
     {"id": "SENTRA_FUEL_REMAINING", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Remaining fuel"}
