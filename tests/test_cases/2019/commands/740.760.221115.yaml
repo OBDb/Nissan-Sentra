@@ -1,0 +1,23 @@
+command_id: 740.760.221115
+test_cases:
+- expected_values:
+    SENTRA_APP: 0
+  response: '7600462111500'
+- expected_values:
+    SENTRA_APP: 7.5
+  response: 760046211150F
+- expected_values:
+    SENTRA_APP: 8
+  response: '7600462111510'
+- expected_values:
+    SENTRA_APP: 10
+  response: '7600462111514'
+- expected_values:
+    SENTRA_APP: 21
+  response: 760046211152A
+- expected_values:
+    SENTRA_APP: 30
+  response: 760046211153C
+- expected_values:
+    SENTRA_APP: 30.5
+  response: 760046211153D

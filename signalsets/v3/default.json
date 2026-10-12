@@ -2,15 +2,15 @@
     { "hdr": "7E0", "type": "engine" }
   ],
   "commands": [
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2019, 2020, 2021, 2023], "from": 2025 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "SENTRA_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2019, 2020, 2021, 2023], "from": 2025 },
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "SENTRA_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Brake master cylinder pressure count"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "filter": { "to": 2019 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2018 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "filter": { "to": 2019 }, "dbgfilter": { "to": 2013, "years": [2015, 2018] },
   "signals": [
     {"id": "SENTRA_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
