@@ -1,4 +1,4 @@
-command_id: 743.763.2101|fc=1
+command_id: 743.763.2101|fc=1,f=-2019
 test_cases:
 - expected_values:
     SENTRA_ODO_METER: 149900
