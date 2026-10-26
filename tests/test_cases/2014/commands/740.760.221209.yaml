@@ -7,5 +7,5 @@ test_cases:
     SENTRA_BRAKE_MC_P: -3
   response: 76005621209FFFD
 - expected_values:
-    SENTRA_BRAKE_MC_P: -2
-  response: 76005621209FFFE
+    SENTRA_BRAKE_MC_P: -1
+  response: 76005621209FFFF
