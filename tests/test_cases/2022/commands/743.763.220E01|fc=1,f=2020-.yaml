@@ -4,6 +4,9 @@ test_cases:
     SENTRA_ODO: 130312
   response: '763 06 62 0E 01 01 FD 08 '
 - expected_values:
+    SENTRA_ODO: 98025
+  response: 76306620E01017EE9
+- expected_values:
     SENTRA_ODO: 130312
   response: 76306620E0101FD08
 - expected_values:
