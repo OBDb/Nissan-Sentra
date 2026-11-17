@@ -10,7 +10,7 @@
   "signals": [
     {"id": "SENTRA_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Brake master cylinder pressure count"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "filter": { "to": 2019 }, "dbgfilter": { "to": 2013, "years": [2015, 2018] },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2018], "from": 2020 },
   "signals": [
     {"id": "SENTRA_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -45,15 +45,15 @@
     {"id": "SENTRA_HVAC_BLOWER_V", "path": "Climate", "fmt": {"bix": 89,  "len": 7,  "max": 127,                           "unit": "volts"   }, "name": "Blower voltage"},
     {"id": "SENTRA_AC_COMP_RPM",   "path": "Climate", "fmt": {"bix": 168, "len": 16, "max": 65535,                         "unit": "rpm"     }, "name": "Air conditioning compressor speed"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 5, "filter": { "to": 2012, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning status"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 5, "filter": { "to": 2012, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
+{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 5, "filter": { "to": 2012, "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2023], "from": 2027 },
   "signals": [
     {"id": "SENTRA_ECT", "path": "Climate", "fmt": { "len": 8, "max": 214, "min": -40, "add": -40, "nullmax": 214, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
